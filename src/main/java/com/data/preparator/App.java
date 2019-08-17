@@ -18,7 +18,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		List<Path> jsonFilePaths = DirectoryTreeReader.getAllJsonFiles("/home/mechanic/Downloads/jsons");
+		List<Path> jsonFilePaths = DirectoryTreeReader.getAllJsonFiles("SOURCE_DIRECTORY");
 
 		if (!jsonFilePaths.isEmpty()) {
 			jsonFilePaths.forEach(path -> {
